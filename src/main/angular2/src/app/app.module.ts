@@ -7,17 +7,16 @@ import {SystemModule} from "./system/system.module";
 import {AppRoutesModule} from "./app.routes";
 import { HeaderComponent } from './layout/header/header.component';
 import { MenuComponent } from './layout/menu/menu.component';
-import { HomeComponent } from './layout/home/home.component';
 import { IndexComponent } from './layout/index/index.component';
-import {RouterModule} from "@angular/router";
+import {C404Component} from "./403/c404.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    HomeComponent,
-    IndexComponent
+    IndexComponent,
+    C404Component
   ],
   imports: [
     BrowserModule,
