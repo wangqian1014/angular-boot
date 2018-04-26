@@ -9,6 +9,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { MenuComponent } from './layout/menu/menu.component';
 import { IndexComponent } from './layout/index/index.component';
 import {C404Component} from "./403/c404.component";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import {C404Component} from "./403/c404.component";
   imports: [
     BrowserModule,
     SystemModule,
+    HttpClientModule,
     AppRoutesModule
   ],
   providers: [],

@@ -6,8 +6,8 @@ import {C404Component} from "./403/c404.component";
 
 export const rootRouterConfig:Routes=[
   {path:"",component:LoginComponent},
-  {path:"index",component:IndexComponent}
-  /*{path:"**",component:C404Component}*/
+  {path:"index",component:IndexComponent},
+  {path:"**",component:C404Component}
 ];
 @NgModule({
   imports: [
